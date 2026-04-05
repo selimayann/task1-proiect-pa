@@ -1,0 +1,3 @@
+randamentul mediu = -0.006212 
+volatilitatea = 0.010879 
+sharpe ratio = -0.571046 
