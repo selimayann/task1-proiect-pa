@@ -4,9 +4,9 @@
 #include "coada.h"
 #include "stiva.h"
 
-int main() {
-    FILE *in = fopen("in2.txt", "r");
-    FILE *out = fopen("out2.txt", "w");
+int main(int argc,const char *argv[]) {
+    FILE *in = fopen(argv[1], "r");
+    FILE *out = fopen(argv[2], "w");
 
     Node *stiva1 = NULL;
     Node *stiva2 = NULL;

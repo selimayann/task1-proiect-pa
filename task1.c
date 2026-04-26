@@ -3,9 +3,9 @@
 #include <math.h>
 #include "list.h"
 
-int main() {
-    FILE *in = fopen("in.txt", "r");
-    FILE *out = fopen("out.txt", "w");
+int main(int argc, const char *argv[]) {
+    FILE *in = fopen(argv[1], "r");
+    FILE *out = fopen(argv[2], "w");
     int n;
     double p;
 
